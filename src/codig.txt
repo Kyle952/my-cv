@@ -1,0 +1,137 @@
+import React from "react";
+import './App.css';
+import yo from './yo.png';
+import react from './react.png';
+import js from './js.png';
+import nodejs from './nodejs.png';
+import htmlfile from './htmlfile.png';
+import csharp from './csharp.png';
+import sqlserver from './sqlserver.png';
+import angular from './angular.png';
+import cssfile from './cssfile.png';
+
+function App() {
+  return (
+      <div className="container my-5 px-4 py-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 border-bottom">Kyle Niklaus Atehortua Cardona</h1>
+            <h5 class="display-7 fw-bold lh-1">Desarrollador Front-End</h5>
+            <p class="lead">
+              Ingeniero de Sistemas con habilidades blandas basadas en el respeto, la transparencia y lealtad con las personas que forman parte del grupo de trabajo, amante del trabajo en equipo y la colaboracion.
+            </p>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-4" src={yo} alt="yo" width="400" height="500" />
+          </div>
+        </div>
+        <hr />
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <h1 class="display-4 fw-bold text-center border-bottom">Tecnologias/Herramientas conocidas</h1>
+          <div class="row row-cols-1 row-cols-md-4 g-4 pb-5">
+            <div class="col">
+              <div class="card border-primary h-100 shadow-lg text-center">
+                <img src={react} class="card-img-top" alt="react" />
+                <div class="card-body">
+                  <h5 class="card-title">REACT</h5>
+                  <p class="card-text">Es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-warning h-100 shadow-lg text-center">
+                <img src={js} class="card-img-top" alt="js" />
+                <div class="card-body">
+                  <h5 class="card-title">JAVASCRIPT</h5>
+                  <p class="card-text">Es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-success h-100 shadow-lg text-center">
+                <img src={nodejs} class="card-img-top" alt="nodejs" />
+                <div class="card-body">
+                  <h5 class="card-title">NodeJS</h5>
+                  <p class="card-text">Es un entorno de ejecución de un solo hilo, de código abierto y multiplataforma para crear aplicaciones de red y del lado del servidor rápidas y escalables.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-danger h-100 shadow-lg text-center">
+                <img src={htmlfile} class="card-img-top" alt="htmlfile" />
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">Es el componente más básico de la Web. Define el significado y la estructura del contenido web.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-primary h-100 shadow-lg text-center">
+                <img src={csharp} class="card-img-top" alt="csharp" />
+                <div class="card-body">
+                  <h5 class="card-title">CSharp</h5>
+                  <p class="card-text">Es un lenguaje de programación orientado a objetos, que ha sido diseñado para compilar diversas aplicaciones que se ejecutan en .NET Framework.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-warning h-100 shadow-lg text-center">
+                <img src={sqlserver} class="card-img-top" alt="sqlserver" />
+                <div class="card-body">
+                  <h5 class="card-title">SQL Server</h5>
+                  <p class="card-text">Es un sistema de gestión de base de datos relacional, desarrollado por la empresa Microsoft.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-danger h-100 shadow-lg text-center">
+                <img src={angular} class="card-img-top" alt="angular" />
+                <div class="card-body">
+                  <h5 class="card-title">Agular</h5>
+                  <p class="card-text">Es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-primary h-100 shadow-lg text-center">
+                <img src={cssfile} class="card-img-top" alt="cssfile" />
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">Es un mecanismo complementario del lenguaje HTML que permite indicarle al navegador el estilo que debe darle a los distintos elementos al desplegar la información de un sitio web.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <h1 class="pb-2 fw-bold text-center border-bottom">Algunos Proyectos</h1>
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./angular.png');">
+                <div class="d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1">
+                  <a href="https://www.google.com">Hola</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                <div class="d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,78 @@
+.intro{
+    display: flex;
+    height: 100vh;
+}
+
+.lado-izquierdo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lado-derecho{
+    flex: 1;
+    position: relative;
+}
+
+.contenedor-lado-izquierdo{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-saludo{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.intro-nombre{
+    font-size: 60px;
+}
+
+.intro-titulo{
+    height: 50px;
+    overflow: hidden;
+}
+
+.contenedor-titulos{
+    height: 100%;
+    animation: movimiento 15s ease-in-out infinite alternate;
+}
+
+@keyframes movimiento {
+    25% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+}
+
+.titulo-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #59b256;
+    display: flex;
+    align-items: center;
+}
+
+.mi-imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.fondo-lado-derecho{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

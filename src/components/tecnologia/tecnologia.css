@@ -1,0 +1,27 @@
+.contenedor-tec{
+    width: 30%;
+    height: 40vh;
+    /*margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px;*/
+    overflow: hidden;
+}
+
+.ventana-tec{
+    height: 20px;
+    /*background-color: rgb(243, 242, 242);*/
+    display: flex;
+    align-items: center;
+}
+
+.titulo-tec{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.tec-img{
+    width: 70%;
+    height: 70%;
+    padding-top: 5%;
+}
