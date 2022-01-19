@@ -1,4 +1,5 @@
-import { createContext, useReducer } from "react";
+import React, { createContext, useReducer } from "react";
+import ReactDOM from 'react-dom'
 
 export const ThemeContext = createContext();
 
