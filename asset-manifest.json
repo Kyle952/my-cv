@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-cv/static/css/main.05d08480.chunk.css",
+    "main.js": "/my-cv/static/js/main.7f1b1c16.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.7f1b1c16.chunk.js.map",
+    "runtime~main.js": "/my-cv/static/js/runtime~main.35ffd8d8.js",
+    "runtime~main.js.map": "/my-cv/static/js/runtime~main.35ffd8d8.js.map",
+    "static/js/2.0f5d690a.chunk.js": "/my-cv/static/js/2.0f5d690a.chunk.js",
+    "static/js/2.0f5d690a.chunk.js.map": "/my-cv/static/js/2.0f5d690a.chunk.js.map",
+    "index.html": "/my-cv/index.html",
+    "precache-manifest.58b38821c449f05144a464cd81892700.js": "/my-cv/precache-manifest.58b38821c449f05144a464cd81892700.js",
+    "service-worker.js": "/my-cv/service-worker.js",
+    "static/css/main.05d08480.chunk.css.map": "/my-cv/static/css/main.05d08480.chunk.css.map",
+    "static/media/address.png": "/my-cv/static/media/address.00d401df.png",
+    "static/media/angular.png": "/my-cv/static/media/angular.75fd45bf.png",
+    "static/media/buscador-api.png": "/my-cv/static/media/buscador-api.d6d54f2c.png",
+    "static/media/conteo-empleados.png": "/my-cv/static/media/conteo-empleados.1c0b6ebd.png",
+    "static/media/csharp.png": "/my-cv/static/media/csharp.0def7b8f.png",
+    "static/media/cssfile.png": "/my-cv/static/media/cssfile.25df44b1.png",
+    "static/media/email.png": "/my-cv/static/media/email.b4ba7394.png",
+    "static/media/htmlfile.png": "/my-cv/static/media/htmlfile.f6dc05e0.png",
+    "static/media/js.png": "/my-cv/static/media/js.06845470.png",
+    "static/media/listas.png": "/my-cv/static/media/listas.078432eb.png",
+    "static/media/moon.png": "/my-cv/static/media/moon.e9f633d5.png",
+    "static/media/nodejs.png": "/my-cv/static/media/nodejs.5b9554e6.png",
+    "static/media/react.png": "/my-cv/static/media/react.240949aa.png",
+    "static/media/sqlserver.png": "/my-cv/static/media/sqlserver.8245463f.png",
+    "static/media/sun.png": "/my-cv/static/media/sun.7d32f2e5.png",
+    "static/media/telephone.png": "/my-cv/static/media/telephone.8f452db1.png",
+    "static/media/yo23.png": "/my-cv/static/media/yo23.ffb3af43.png"
+  }
+}
